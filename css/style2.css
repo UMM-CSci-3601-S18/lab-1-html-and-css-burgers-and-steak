@@ -9,13 +9,30 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    /*background-image: url("../crop.jpg");*/
-    background-color: #ffffff;
+    background-color: forestgreen;
 }
 
-#courses {
-  background-color: #FFDE7A;
+/* We added an image border to the sections, the other two just use a color. */
+.section {
+  border-radius: 25px;
+  padding: 20px;
+  border: 30px solid;
+  margin: 10px;
+  max-width: 870px;
+  border-image: url(../Trippy-Tie-Dye.jpg) 30 round;
+}
 
+/* We changed the color background of the sections. */
+#courses {
+  background-color: lawngreen;
+}
+
+#pslo {
+  background-color: lawngreen;
+}
+
+#faculty {
+  background-color: lawngreen;
 }
 
 /* We added an image border to the photos of professors, the other two just use a color. */
