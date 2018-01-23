@@ -35,6 +35,13 @@ body{
   background-color: lawngreen;
 }
 
+/* changed font and padding of pictures */
+#faculty>ul>li {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+  padding: 50px;
+}
+
 /* We added an image border to the photos of professors, the other two just use a color. */
 img.pic {
   height: 150px;
