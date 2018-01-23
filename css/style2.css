@@ -9,5 +9,18 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
+    /*background-image: url("../crop.jpg");*/
     background-color: #ffffff;
+}
+
+#courses {
+  background-color: #FFDE7A;
+
+}
+
+/* We added an image border to the photos of professors, the other two just use a color. */
+img.pic {
+  height: 150px;
+  border: 10px solid transparent;
+  border-image: url(../crop.jpg) 30 round;
 }
