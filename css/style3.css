@@ -40,10 +40,35 @@ body{
   border-image: url(../flag_stars.jpg) 100 round;
 }
 
+/*Grouping rule*/
 /* added dotted outline to the styles */
-#style {
+#style, #validation {
 
   outline-style: dotted;
   outline-color: red;
 }
 
+/*nesting rule*/
+/*using inline-flex instead of inline-block*/
+#faculty>ul>li {
+  display: inline-flex;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+/*hides pictures if moused over*/
+/*it's strange to let people touch your face on the internet*/
+/*it's not a very useful feature in this project, but it could be in another*/
+/*added a border to fix spacing issues with text*/
+img.pic {
+  height: 150px;
+  visibility: visible;
+  border: 20px solid transparent;
+}
+
+img.pic:hover {
+  height: 150px;
+  visibility: hidden;
+  border: 20px solid transparent;
+
+}
