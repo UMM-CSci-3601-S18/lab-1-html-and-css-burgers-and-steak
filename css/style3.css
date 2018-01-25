@@ -6,8 +6,44 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 
 */
-
+/* changed background color*/
 body{
     padding: 30px;
-    background-color: #aaaaaa;
+    background-color: #e7e7e7;
 }
+/* changed text color*/
+#main-title{
+  color: darkblue;
+}
+
+/*changed text color, added a shadow,added a background color, added a border, and added border image*/
+#pslo{
+  background-color: lightgrey;
+  text-shadow: 2px 2px black;
+  color: lightcoral;
+  border: 20px solid transparent;
+  border-image: url(../flag_stars.jpg) 100 round;
+}
+#courses{
+  background-color: lightcoral;
+  text-shadow: 2px 2px white;
+  color: blue;
+  border: 20px solid transparent;
+  border-image: url(../flag_stars.jpg) 100 round;
+}
+
+#faculty {
+  background-color: lightblue;
+  text-shadow: 2px 2px black;
+  color: white;
+  border: 20px solid transparent;
+  border-image: url(../flag_stars.jpg) 100 round;
+}
+
+/* added dotted outline to the styles */
+#style {
+
+  outline-style: dotted;
+  outline-color: red;
+}
+
