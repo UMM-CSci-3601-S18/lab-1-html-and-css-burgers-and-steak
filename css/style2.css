@@ -12,6 +12,7 @@ body{
     background-color: forestgreen;
 }
 
+/*Class rule*/
 /* We added an image border to the sections, the other two just use a color. */
 .section {
   border-radius: 25px;
@@ -22,16 +23,9 @@ body{
   border-image: url(../Trippy-Tie-Dye.jpg) 30 round;
 }
 
+/*Grouping rule*/
 /* We changed the color background of the sections. */
-#courses {
-  background-color: lawngreen;
-}
-
-#pslo {
-  background-color: lawngreen;
-}
-
-#faculty {
+#courses, #pslo, #faculty {
   background-color: lawngreen;
 }
 
@@ -49,6 +43,7 @@ img.pic {
   border-image: url(../crop.jpg) 30 round;
 }
 
+/*ID rule*/
 /*added style menu bar at the top of the page with color change on hover*/
 #style {
   position: fixed;
@@ -60,6 +55,7 @@ img.pic {
   padding-top: 10px;
 }
 
+/*Nesting rules*/
 #style ul {
   list-style-type: none;
   margin: 0;
