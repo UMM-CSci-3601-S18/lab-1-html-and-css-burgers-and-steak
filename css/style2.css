@@ -7,6 +7,15 @@ use float to make something locate itself on the right or left
 
 */
 
+/*Stylize title*/
+#main-title{
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+  font-family: "Comic Sans MS";
+  text-shadow: 5px 5px green;
+}
+
 body{
     padding: 30px;
     background-color: forestgreen;
@@ -26,7 +35,8 @@ body{
 /*Grouping rule*/
 /* We changed the color background of the sections. */
 #courses, #pslo, #faculty {
-  background-color: lawngreen;
+  background-color: #6bbf00;
+
 }
 
 /* changed font and padding of pictures */
